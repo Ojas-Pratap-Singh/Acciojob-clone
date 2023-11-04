@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+nav {
+  width: 100%;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav > ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.nav-img {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.nav-link {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-link > div {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-link > div > img {
+  transform: translateY(5px);
+}
+.btn {
+  border: 2px solid #2f80ed;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-style: italic;
+  font-weight: 500;
+  color: #2f80ed;
+  background-color: white;
+}
+.announcement {
+  background-color: #2f80ed;
+  color: #fff;
+  font-family: ABeeZee;
+  font-style: italic;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  margin-top: 187px;
+  display: flex;
+  justify-content: space-between;
+  height: 558px;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  width: 711px;
+  height: 300px;
+}
+.h1 {
+  color: #2b2f34;
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 500;
+}
+.h2 {
+  color: #2f80ed;
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+}
+span{
+  font-weight: 600;
+  color: black;
+}
+.h3 {
+  color: #595959;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.apply{
+  display: flex;
+width: 300px;
+padding: 14px 6px 14px 16px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+border-radius: 8px;
+background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
+color: var(--WHITE, #FFF);
+
+font-size: 18px;
+}
+.feature {
+  display: flex;
+  margin-top: 35px;
+  width: 643px;
+  height: 77px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.feature > div {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.feature > div > img {
+  width: 36px;
+  height: 31px;
+}
+.fea-des {
+  color: #4f4f4f;
+
+  font-size: 12px;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 18px;
+  background: #fff;
+  padding: 28px 24px;
+  gap: 28px;
+  box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+  width: 386px;
+  height: 485px;
+}
+.input-contact{
+ display: flex;
+ flex-direction: column;
+ row-gap: 14px;
+}
+.inp{
+  display: flex;
+width: 300px;
+padding: 14px 6px 14px 10px;
+align-items: center;
+gap: 14px;
+border-radius: 8px;
+background: #FAFAFA;
+border-style: none;  
+}
+.inp>input{
+  border-style: none;
+  background-color: transparent;
+}
+.heading {
+  font-family: ABeeZee;
+  font-size: 32px;
+  font-style: italic;
+  color: black;
+  font-weight: 600;
+  
+}
+.subheading {
+  color: #818d9d;
+
+  font-size: 16px;
+}
+.term {
+  color: #2f80ed;
+
+  font-size: 14px;
+}
+
+.Courses-Offered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 863px;
+
+  background: #ecf8ff;
+}
+.course-head > div {
+  margin: 10px;
+}
+.course-head {
+  margin-top: 23px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 9px;
+  border: 2px solid var(--primaryskyblue, #2f80ed);
+  background: #fff;
+  width: 525px;
+  height: 622px;
+}
+.job {
+  display: flex;
+  column-gap: 10px;
+}
+.course-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+}
+.beg {
+  display: flex;
+}
+.course-detail {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 16px;
+  row-gap: 6px;
+  width: 85%;
+  margin: -4px 34px;
+  justify-content: space-between;
+}
+.course-detail>div>p{
+   display: flex;
+   gap: 10px;
+}
+.inter>div{
+  background:  #FFEED8 !important;
+}
+.course-detail > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  height: 40px;
+}
+.course-link {
+  display: flex;
+  justify-content: space-around;
+}
+.heading1 {
+  font-family: ABeeZee;
+  font-size: 26px;
+
+  color: #2f80ed;
+}
+.heading2 {
+  text-align: center;
+  color: #2f80ed;
+  font-family: ABeeZee;
+  font-size: 36px;
+}
+.beg {
+  font-family: ABeeZee;
+  font-size: 14px;
+}
+.job > div {
+  color: #1d78b0;
+  padding: 4px 15px;
+  border-radius: 7px;
+  background: #e0f3ff;
+  font-size: 14px;
+  gap: 10px;
+}
+.start {
+  color: #565656;
+
+  font-size: 14px;
+}
+.course-link > button ,.placement{
+  display: flex;
+  width: 203px;
+  padding: 14px 6px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #2f80ed;
+
+  color: #2f80ed;
+  font-family: ABeeZee;
+  font-size: 18px;
+}
+.more ,.placement{
+  background-color: #2f80ed !important;
+  color: white !important;
+}
+.two-courses {
+  display: flex;
+  column-gap: 15px;
+}
+.Hiring-Partners {
+  width: 100%;
+  height: 794px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+table{
+  border-spacing: 50px 44px;
+}
+.row1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row2{  
+  text-align: center;
+  col-gap: 10px;
+}
+.head1{
+  font-size: 16px;
+  color:  #2F80ED ;
+  font-style: italic;
+}
+.head2{
+color: #2B2F34;
+
+font-size: 42px;
+font-style: italic;
+
+}
+.head3{
+  color:  #2F80ED;
+
+font-size: 42px;
+font-style: italic;
+}
+.head4{
+  color:  #595959;
+
+font-size: 18px;
+}
+.wall{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 81px;
+  row-gap: 46px;
+  margin-bottom: 75px;
+}
+.card-wall{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+.card-test{
+  display: flex;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+border-radius: 10px;
+border: 2px solid #D7D7D7;
+width: 363px;
+margin: 8px;
+
+background: #FFF;
+
+box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.card-row1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 18px;  
+}
+.wall-head1{
+  color:  #2B2F34;
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 42px;
+}
+.wall-head2{
+  color: #595959;
+  text-align: center;
+font-size: 18px;
+}
+@media screen  and (max-width:480px) {
+  /* *{
+    margin: auto;
+  } */
+  header {
+    width: 100%;
+    position: static;   
+    margin-top: 80px; 
+    
+  }
+  nav >ul{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-link{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 10px;
+  }
+  .announcement{
+    margin-top: 90px;
+  }
+  .hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 272px;
+  }
+  .col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .feature{
+    width: 100%;
+    height: 88px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+   
+  }
+  .col2{
+    margin-top: 150px;
+  }
+  .two-courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    background-color: white !important;
+  }
+  .Courses-Offered{
+    margin-top: 550px;
+    background-color: white !important;
+  }
+  
+    .Hiring-Partners{
+      display: none;
+    }
+    .card{
+      width: 100%
+    }
+    .wall{
+      margin-top: 330px;
+    }
+  
+}
+
